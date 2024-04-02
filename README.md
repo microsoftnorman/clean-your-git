@@ -57,3 +57,12 @@ Here are some strategies to keep your Git repositories clean and efficient:
 [Git Sizer](https://github.com/github/git-sizer) is a useful tool that calculates various size metrics for a Git repository and helps identify those that could potentially cause problems. With Git Sizer, you can evaluate the complexity and size of your repository, including branch count, tag count, largest blob, and more. It's designed to help you understand the 'big picture' of your repository's state. It can be a valuable resource to keep your repository manageable and optimized.
 
 A big thanks to the team at [Git Sizer](https://github.com/github/git-sizer) for their invaluable work!
+
+## How Do Use This Script
+This is a wrapper for Git Sizer that will install and run on your local repo
+Run the following command in your bash terminal to clean your Git repository:
+
+```bash
+./clean.sh https://github.com/nginx/nginx.git
+
+
