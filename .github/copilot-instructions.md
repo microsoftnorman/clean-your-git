@@ -199,7 +199,7 @@ For minor changes (typo fixes, documentation updates, minor refactoring), use yo
 
 ## Project Maintenance
 
-- Keep Git Sizer version updated (currently v1.5.0)
+- Keep Git Sizer version updated (version is defined in `clean.sh` lines 8, 11, and 14 - currently v1.5.0)
 - Monitor for deprecated Bash features
 - Ensure compatibility with latest Git versions
 - Update README with new Git cleanup strategies as they become available
